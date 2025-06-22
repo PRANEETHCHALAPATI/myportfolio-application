@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+#body {
+    background-image: url("https://lh3.googleusercontent.com/pw/AP1GczMwptFFG75aQCAvYVSmnVDsto-29q_HmD9fNfQmkIfYHj9UkrBmVqhlPm_dv3iqjq5zKJx3-VNSTqPKI5us6q3LFXdDkjqGkgfHqNFyrBIpy7SsSl3Z2QtNqZzsJBDZV3wnHVdEm1AC8xLsY3ZzxVuv=w1360-h706-s-no-gm?authuser=0");
+}
+
+#chatbot-sec {
+    padding: 10px;
+
+}
+
+
+
+.chat-bot {
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #f2ce2c;
+    font-family: "Open Sans";
+
+}
+
+
+.bg-x {
+    background-color: #f2ce2c;
+}
+
+.nav-logo {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.pra1 {
+    color: black;
+    font-family: "Bree Serif";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+#nav-item1,
+#nav-item2,
+#nav-item3,
+#nav-item4 {
+    color: black;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.nav-b {
+    background-color: white;
+    border-width: 0px;
+    color: black;
+}
+
+.homesection1 {
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+
+}
+
+.banner-head {
+    color: white;
+    font-family: "Roboto";
+    margin: 5px;
+}
+
+.pra {
+    color: black;
+    font-family: "Open Sans";
+    font-style: italic;
+    font-weight: 500;
+    font-size: 32px;
+    letter-spacing: 1px;
+    width: 150px;
+    background-color: #f2ce2c;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.banner-button {
+    width: 130px;
+    height: 40px;
+    color: black;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: #f2ce2c;
+    border-width: 0px;
+    margin: 5px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.m-b {
+    font-size: 20px;
+    color: black;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.icon {
+    height: 35px;
+    width: 35px;
+    background-color: #f2ce2c;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.praneeth-contact {
+    background-color: #f5f5a6;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form-label {
+    font-family: "Open sans";
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.form-input {
+    font-family: "Open sans";
+    font-weight: 600;
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 2px;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+#sendButton {
+    font-family: "Open sans";
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.contact-x {
+    font-family: "Open sans";
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 16px;
+    text-align: right;
+    margin: 5px;
+}
+
+.aboutme-para {
+    font-family: "Roboto";
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+}
+
+.aboutme-con {
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #f2ce2c;
+    margin-bottom: 20px;
+}
+
+.aboutme-head {
+    font-size: 20px;
+    color: black;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: #f2ce2c;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.project-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 7px;
+    padding: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.project-img {
+    height: 200px;
+}
+
+.project-head {
+    font-family: "Bree Serif";
+    letter-spacing: 2px;
+    font-size: 24px;
+    font-style: italic;
+    margin: 4px;
+}
+
+.project-para {
+    font-family: "Open sans";
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+    margin: 4px;
+}
+
+.project-button {
+    width: 130px;
+    height: 40px;
+    color: black;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: #f2ce2c;
+    border-width: 0px;
+    margin: 5px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.project-para1 {
+    font-family: "Roboto";
+    letter-spacing: 1px;
+    color: black;
+    font-size: 16px;
+    margin: 4px;
+}
+
+.linktree-icon {
+    height: 70px;
+    width: 70px;
+    border-radius: 22px;
+    margin: 15px;
+}
+
+.arrow-icon {
+    font-size: 30px;
+    transform: scaleX(1.5);
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.skills-img {
+    height: 60px;
+    width: 60px;
+}
+
+.skills-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.skills-heading {
+    color: black;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 4px;
+}
+
+.skills-section {
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #f2ce2c;
+    margin: 20px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.services-heading1 {
+    color: white;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 4px;
+}
+
+.services-heading2 {
+    color: black;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.services-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.services-img {
+    height: 60px;
+    width: 60px;
+}
+
+.services-para {
+    font-family: "Roboto";
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+}
+
+.praneeth-logo {
+    height: 150px;
+    width: 100px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.copy-icon {
+    font-size: 30px;
+    color: #f2ce2c;
+    margin: 4px;
+}
+
+.copy-head {
+    color: white;
+    font-size: 15px;
+    font-family: "Open Sans";
+    letter-spacing: 1px;
+    font-style: italic;
+    margin-top: 7px;
+}
+
+.head-icon {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+}
